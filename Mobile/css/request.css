@@ -1,0 +1,162 @@
+.wrap-form{
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 110px
+}
+.form-title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #00b13f;
+    display: block;
+    text-align: center;
+}
+.section-title{
+    border-bottom: #ddd 1px solid;
+    padding: 2.5px;
+    font-size: 14px;
+    color: #c00;
+    margin: 15px 0
+}
+.form1{
+    width: 100%;
+}
+.form1 p{
+    line-height: 32px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+.form1 input{
+    padding: 0 5px;
+    height: 27px;
+    border: 1px solid #ddd;
+    width: calc( 100% - 150px );
+    max-width: 350px;
+    background: #f9f9f9;
+    font-size: 12px;
+}
+.form1 textarea{
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: calc( 100% - 150px );
+    max-width: 350px;
+    background: #f9f9f9;
+}
+.form1 span{
+    color: red
+}
+.form-time{
+    width: calc(35% - 80px);
+    max-width: 165px!important;
+    padding: 2.5px!important
+}
+.form1 .fa-minus{
+    line-height: 27px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.form1 select{
+    padding: 0 5px;
+    height: 27px;
+    border: 1px solid #ddd;
+    width: calc( 100% - 150px );
+    max-width: 350px;
+    background: #f9f9f9;
+}
+.wrap-checkbox{
+    width: calc( 100% - 150px );
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+.custom-control-label{
+    line-height: 27px!important;
+    font-size: 12px!important;
+    font-weight: 700!important;
+    margin-right: 5px
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #00b13f;
+}
+.wrap-form button{
+    width: 110px;
+    text-align: center;
+    background: #00b13f;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 700;
+    height: 35px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+}
+.wrap-pre{
+    width: 110px;
+}
+.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label {
+    color: black!important;
+}
+
+.tab {
+  display: none;
+  min-height: 300px
+}
+
+
+#prevBtn {
+  background-color: #bbbbbb;
+
+}
+.wrap-step{
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+.wrap-map{
+    height: 100%; width: 100%;position: absolute;bottom: 0; z-index: -2;
+}
+.btn-form{
+    width: 110px;
+    text-align: center;
+    background: #00b13f;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 700;
+    height: 35px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.custom-control{
+    width: 130px;
+}

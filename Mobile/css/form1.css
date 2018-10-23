@@ -1,0 +1,415 @@
+.wrap-form{
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    width: 87.5%;
+    margin-top: 0px
+    
+}
+.form-title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #00b13f;
+    display: block;
+    text-align: center;
+    border-bottom: #ddd 1px solid
+}
+.section-title{
+   
+    padding: 2.5px;
+    font-size: 14px;
+    color: #c00;
+    margin: 15px 0
+}
+.form1{
+    width: 100%;
+}
+.form1 p{
+    line-height: 32px;
+    width: 70px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.form1 input{
+    padding: 0 5px;
+    height: 27px;
+    border: none;
+    border-bottom: 2px dotted black;
+    width: calc( 100% - 95px );
+    max-width: 350px;
+    background: white;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 0!important
+}
+.form1 textarea{
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 350px;
+    background: #f9f9f9;
+    height: 130px;
+}
+.form1 span{
+    color: red
+}
+.form-time{
+    width: calc(35% - 80px);
+    max-width: 165px!important;
+    padding: 2.5px!important
+}
+.form1 .fa-minus{
+    line-height: 27px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.form1 select{
+    padding: 0 5px;
+    height: 27px;
+    border: 1px solid #ddd;
+    width: calc( 100% - 150px );
+    max-width: 350px;
+    background: #f9f9f9;
+}
+.wrap-checkbox{
+    width: 100%;
+    
+    margin-bottom: 10px;
+}
+.custom-control-label{
+    line-height: 27px!important;
+    font-size: 12px!important;
+    font-weight: 700!important;
+    margin-right: 5px
+}
+
+.custom-control-label::before {
+    width: 130px;
+    border-radius: 100%!important;
+    z-index: -1;
+    height: 26px;
+    margin-top: -4px;
+}
+.wrap-form button{
+    width: 40px;
+    text-align: center;
+    background: white;
+    color: #00b13f;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 700;
+    height: 35px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+}
+.wrap-pre{
+    width: 40px;
+}
+.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label {
+    color: black!important;
+}
+
+.tab {
+  display: none;
+  min-height: 300px
+}
+.tab1{
+    display: none;
+    min-height: 200px
+  }
+
+#prevBtn {
+  
+    float: left;
+    margin-right: auto;
+}
+#nextBtn{
+    float: right;
+    margin-left: auto;
+}
+.wrap-step{
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+.step1 {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step1.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step1.finish {
+    background-color: #4CAF50;
+  }
+.wrap-map{
+    height: 100vh; width: 100%;position: absolute;bottom: 0; z-index: -2;
+}
+.btn-form{
+    width: 140px;
+    text-align: center;
+    background: #00b13f;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 700;
+    height: 42px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.custom-control{
+    width: 130px;
+    z-index: 2;
+    margin-right: 10px;
+    margin-left: 10px
+}
+.job-info {
+    background-color: #ffffff;
+    margin: 42px auto;
+    font-size: 13px!important;
+    padding: 10px 15px;
+    max-width: 960px;
+    bottom: 10px;
+    position: fixed;
+    height: 45vh;
+    width: 87.5%;
+    min-height: 300px;
+}
+#myTab{
+    border: none!important
+}
+
+.nav-link{
+    border: 1px solid  #dee2e6  !important;
+    border-radius: 1.8px!important;
+    margin-top: 5px;
+    background: white;
+    color: #00b13f!important;
+    font-weight: 700
+}
+.nav-item .active{
+    background: #00b13f!important;
+    color: unset!important;
+    color: white!important
+}
+
+.job-info .active:hover{
+    color: unset!important
+}
+#myTabContent{
+    margin-top: 0px
+}
+.jobs{
+    height: 34vh;
+    padding: 10px 0 ;
+    min-height: 230px;
+}
+.jobs b{
+    font-size: 14px;
+    line-height: 30px
+}
+.jobs span{
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500
+}
+.jobs i {
+    color: black;
+    width: 75px;
+    display: inline-block;
+    font-style: unset
+}
+.jobs img{
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 5px
+}
+.job-type {
+    width: 80px;
+    height: 30px;
+    background: #00b13f;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.job-type b{
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 9px
+}
+#type1{
+ background: blue
+}
+#type2{
+    background: #c00
+}
+
+
+.col1 .custom-control-label::before{
+    background: #339af0!important
+}
+.col2 .custom-control-label::before {
+    background: #00b13f!important;
+}
+.col3 .custom-control-label::before {
+    background: #DAA520!important
+}
+.btn-info{
+    display: block;
+}
+#myTab .active{
+    display: none!important;
+}
+#request{
+    max-height: 150px;
+    overflow: hidden;
+}
+#job_chunha{
+    word-break: break-word;
+}
+#request b{
+    line-height: 26px
+}
+.salary .custom-control-label::before {
+    width: 130px;
+    border-radius: 0px!important;
+    z-index: -1;
+    height: 26px;
+    margin-top: -4px;
+}
+.salary1{
+    width: calc(100% - 40px);
+    
+}
+.salary1 .custom-control-label::before {
+    width: 100%;
+    border-radius: 0px!important;
+    z-index: -1;
+    height: 26px;
+    margin-top: -4px;
+  
+}
+.stay{
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+}
+.stay-check{
+    width: 70px;
+    z-index: 2;
+    margin-right: 10px;
+    padding-left: 15px;
+}
+.stay-check .custom-control-label::before {
+    width: 70px;
+   border-radius: 9px!important;
+    z-index: -1;
+    height: 26px;
+    margin-top: -4px;
+}
+.place{
+    border: 1px solid #ced4da!important;
+    color: black;
+    font-weight: 600;
+    min-width: 85px;
+    margin-left: 0px!important;
+    margin-right: 5px;
+    width: 35%!important;
+        padding: 0 5px;
+        height: 27px;
+        border: none;
+        border-bottom: 2px dotted black;
+        width: calc( 100% - 95px );
+        max-width: 350px;
+        background: white;
+        font-size: 12px;
+        margin-left: 10px;
+        border-radius: 0!important;
+    height: 27px !important;
+    color: #495057!important;
+    
+}
+.place1{
+    border: 1px solid #ced4da!important;
+    color: black;
+    font-weight: 600;
+    min-width: 85px;
+    width: 60%!important;
+    margin-left: 0!important;
+    margin-right: 5px;
+    padding: 0 5px;
+    height: 27px;
+    border: none;
+    border-bottom: 2px dotted black;
+    width: calc( 100% - 95px );
+    max-width: 350px;
+    background: white;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 0!important
+}
+#nextBtn{
+    float: right;
+}
+#prevBtn{
+    float: left;
+}
+#submit{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 100px!important;
+}
+.place p{
+    height: 27px;
+    line-height: 26px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 13px
+}
+.place option{
+    min-height: unset!important;
+    height: 26px;
+}

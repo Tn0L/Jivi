@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #eee;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 12px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: unset;
+    color: inherit
+}
+a:hover{
+    text-decoration:unset;
+    color: inherit
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0
+}
+.row{
+    padding: 0;
+    margin: 0px
+}
+.wrap{
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+@media (min-width: 576px){
+    .container {
+        max-width: 560px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1180px;
+    }
+}
+input:focus{
+    outline: none!important;
+    box-shadow: unset!important;
+    border-color: inherit!important
+}
+textarea:focus{
+    outline: none!important;
+    box-shadow: unset!important;
+    border-color:inherit!important
+}
+select:focus{
+    outline: none!important;
+    box-shadow: unset!important;
+    border-color:inherit!important
+}
